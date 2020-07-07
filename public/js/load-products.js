@@ -4,7 +4,7 @@ function createProductFromTemplate(item) {
 
   product.querySelector('h2').innerText = item.name;
   product.querySelector('.description').innerText = item.description;
-  product.querySelector('.form').action = "./payment/v1"
+  product.querySelector('.form').action = "./payment/v2"
   product.querySelector('[name=sku]').value = item.sku;
   product.querySelector('.price').innerText = new Intl.NumberFormat('en-US', {
     style: 'currency',
