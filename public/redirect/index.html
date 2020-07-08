@@ -226,9 +226,9 @@
         maeshstatus.then(
             status => { 
                 ​if (status == "Unpaid" || status == "Error") {
-                    document.getElementById("error").style.display="none";
-                } else {
                     document.getElementById("success").style.display="none";
+                } else {
+                    document.getElementById("error").style.display="none";
                 }
             });
     </script>
