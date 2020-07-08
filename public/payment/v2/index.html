@@ -13,7 +13,8 @@
     <link href="../../css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!-- font-awesome-icons -->
     <link href="../../css/font-awesome.css" rel="stylesheet">
-    </script>
+    <!-- Maesh -->
+    <script src="https://js.maesh.io/v1.js"></script>
 </head>
 
 <body>
@@ -88,6 +89,17 @@
     </div>
     <script src="../../js/jquery-2.1.4.min.js"></script>
     <script src="../../js/bootstrap-3.1.1.min.js"></script>
+    <script> const maesh = Maesh(); </script> 
+    <script>
+        maesh.create({ 
+            api_key : 'e199a5452cf4f70d37ddce9ee21d471a4b06d5a4', 
+            dom_element_id : ​'maesh'​, 
+            currency: ​'SGD'​, 
+            amount: ​21700​, 
+            gotoUrl: ​'https://merchant.com/success'​, 
+            referenceCode: ​'ABCDEFGH' 
+        })
+    </script>
 </body>
 
 </html>
